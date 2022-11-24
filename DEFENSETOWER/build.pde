@@ -29,6 +29,13 @@ void handleBuildClicks() {
     towerMode = PLAY;
   }
   if (buyGunTower.clicked) {
-    towers.add(new Tower(GUN, 0, 30));
+    towers.add(new Tower(GUN));
   }
+  if (buyAoeTower.clicked) {
+    towers.add(new Tower(AOE));
+    }
+    if (buySniperTower.clicked) {
+    towers.add(new Tower(SNIPER));
+      
+}
 }

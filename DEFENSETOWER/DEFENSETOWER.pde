@@ -134,8 +134,8 @@ playMode = new  Button("PLAY", 900, 100, 150, 100, green, white);
   //BUILD - To play mode, Buy Sniper, Buy Gun, Buy AoE
   buildButton = new Button("BUILD", 900, 225, 150, 100, green, white);
   buyGunTower = new Button("GUN", 900, 225, 150, 100, blue, white);
-  buyAoeTower  = new Button("AOE\n$", 900, 460, 140, 100, blue, white);  //"AOE\n$"+price[AOE]
-  buySniperTower = new Button("SNIPE\n$", 900, 500, 140, 100, blue, white);
+  buyAoeTower  = new Button("AOE\n$", 900, 350, 140, 100, blue, white);  //"AOE\n$"+price[AOE]
+  buySniperTower = new Button("SNIPE\n$", 900, 480, 140, 100, blue, white);
   //MAPS
   map1Button = new Button(" ", 300, 400, 280, 280, black, red);
   map2Button = new Button(" ", 690, 400, 280, 280, black, red);
